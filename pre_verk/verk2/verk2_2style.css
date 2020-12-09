@@ -1,0 +1,51 @@
+.main {
+    text-align: center;
+}
+.main ul {
+    display: inline-table;
+    margin: 0;
+    padding: 0;
+}
+.main li {
+    display: inline;
+    padding: 2px 5px;
+}
+
+a {
+    margin: 20px;
+    font-size: large;
+}
+
+.assign_title{
+    text-align: center;
+}
+
+/* MAIN MENU FYRIR OFAN */
+
+body {
+	max-width: 60em;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.first_div p{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed green;
+}
+
+.second_div li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+    color: red;
+}
+
+.third_div li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}

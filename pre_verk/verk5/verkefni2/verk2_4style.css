@@ -1,0 +1,73 @@
+.main {
+    text-align: center;
+}
+.main ul {
+    display: inline-table;
+    margin: 0;
+    padding: 0;
+}
+.main li {
+    display: inline;
+    padding: 2px 5px;
+}
+
+a {
+    margin: 20px;
+    font-size: large;
+}
+
+.assign_title{
+    text-align: center;
+}
+
+/* MAIN MENU FYRIR OFAN */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	max-width: 60em;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+
+.box {
+	font-size: 1.2em;
+	height: 5em;
+}
+
+.row{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-evenly; /* fekk ekki retta utkomu ef þetta væri ekki hér*/
+}
+
+.row p{
+    text-align: center; /* fekk ekki retta utkomu ef þetta væri ekki hér*/
+    line-height: 5em; /* fekk ekki retta utkomu ef þetta væri ekki hér*/
+}
+.row div{
+    width: 25%; /* fekk ekki retta utkomu ef þetta væri ekki hér*/
+}
+.col{
+    display: flex;
+    flex-flow: column-reverse;
+}

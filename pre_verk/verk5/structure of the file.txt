@@ -1,0 +1,49 @@
+structure
+
+header
+section
+footer
+copy
+
+--section and their children
+
+header
+	div
+		h1
+	div
+		p
+		nav
+			a
+			a
+
+section
+	main
+		section
+			h1
+			p
+			p
+		section
+			p
+			blockquote
+
+footer
+	nav
+		h4
+		dl
+			dt
+				dd
+	nav
+		h4
+			ul
+				li
+				li
+				li
+				li
+	nav
+		h4
+		ul
+			li
+				a
+			li
+			li
+			li

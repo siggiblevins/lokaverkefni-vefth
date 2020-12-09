@@ -1,0 +1,22 @@
+h1 {font-family: sans-serif; color:red; text-align:center;}
+h2 {font-family: sans-serif; color: darkred;}
+h3 {font-family: sans-serif;}
+h4 {font-family: sans-serif;}
+h5 {font-family: sans-serif;}
+h6 {font-family: sans-serif;}
+p {font-family: sans-serif;}
+
+.blue_title {color:blue;}
+.cap_letter {font-size: 150%;}
+.red_letter {color: red;}
+.green_letter {color: green;}
+.blue_italic {font-style: italic; color:blue;}
+.red_italic {font-style: italic; color:red;}
+.middle {text-align:center}
+
+a {font-family:sans-serif; text-align: center;}
+
+a:link {color: #F00}
+a:visited {color: #0F0}
+a:hover {color: #F0F}
+a:active {color: #00F} 
