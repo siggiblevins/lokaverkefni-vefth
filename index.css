@@ -70,6 +70,20 @@ img{
     color: rgb(49, 49, 49);
 }
 
+.fixed_bottom_right{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media(max-width:37.5em){
     .header_grid{
         display:grid;
@@ -84,8 +98,8 @@ img{
     }
     .body_grid{
         display:grid;
-        grid-template-columns: 0.2fr 1fr 0.2fr;
-        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-rows: 0.05fr .28fr .62fr 0.05fr;
     }
     .body_grid_video{
         display:grid;
@@ -97,6 +111,17 @@ img{
         grid-template-columns: 0.1fr 1fr 0.1fr;
         grid-template-rows: 0.05fr .5fr .5fr 0.05fr;
     }
+    .body_text{
+        grid-area: 3/2/4/3;
+        background-color: pink;
+    }
+    .body_image{
+        padding: 1%;
+        display:flexbox;
+        grid-area: 2/2/3/3;
+        background-color: red;
+    }
+
     .PART6_VID{
         grid-area: 2/2/3/3;
     }
