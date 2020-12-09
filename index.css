@@ -159,9 +159,119 @@ img{
 }
 
 @media(min-width:37.5em) and (max-width:60em){
-    
+    .header_grid{
+        display:grid;
+        grid-template-columns: 0.2fr 1fr 0.2fr;
+        grid-template-rows: 0.1fr .2fr 1fr 0.1fr;
+    }
+    .logo{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .navigation{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .body_grid{
+        display:grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-rows: 0.05fr .28fr .62fr 0.05fr;
+    }
+    .body_grid_video{
+        display:grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-rows: 0.1fr .5fr .1fr .25fr 0.2fr;
+    }
+    .footer_grid{
+        display:grid;
+        grid-template-columns: 0.05fr .1fr .7fr .1fr 0.05fr;
+        grid-template-rows: 0.1fr 0.8fr 0.1fr;
+        /* grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;*/
+    }
+    .body_text{
+        padding:2%;
+        grid-area: 3/2/4/3;
+        /*background-color: pink; used to organise when setting up layout in the start*/
+    }
+    .body_image{
+        padding: 1%;
+        grid-area: 2/2/3/3;
+        /*background-color: red; used to organise when setting up layout in the start*/
+    }
+
+    .PART6_VID{
+        grid-area: 2/2/3/3;
+    }
+    .PART6_MP3{
+        grid-area: 4/2/5/3;
+    }
+    .PART7_MAP{
+        grid-area: 2/2/3/5;
+        margin:1%;
+    }
+    .PRE_HW{
+        grid-area: 3/3/4/4;
+        background-color: white;
+        padding: 5%;
+        border-radius: 1%;
+    }
 }
 
 @media (min-width:60em){
-     
+    .header_grid{
+        display:grid;
+        grid-template-columns: .2fr .4fr 0.05fr .4fr .2fr;
+        grid-template-rows: .3fr 1fr .05fr;
+    }
+    .logo{
+        display:flexbox;
+        justify-content: center;
+        align-content: center;
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .navigation{
+        grid-area: 2 / 4 / 3 / 5;
+    }
+    .body_grid{
+        display:grid;
+        grid-template-columns: 0.1fr .05fr 1fr .05fr 0.1fr;
+        grid-template-rows: 0.1fr 0.8fr .4fr 0.1fr;
+    }
+    .body_grid_video{
+        display:grid;
+        grid-template-columns: .05fr 1fr .05fr .4fr .1fr;
+        grid-template-rows: .5fr 1fr .5fr 1fr .1fr;
+    }
+    .footer_grid{
+        display:grid;
+        grid-template-columns: 0.05fr 1fr .5fr 0.05fr;
+        grid-template-rows: 0.1fr 0.8fr 0.1fr;
+        /* grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;*/
+    }
+    .body_text{
+        padding:2%;
+        grid-area: 3 / 2 / 4 / 5;
+        /*background-color: pink; used to organise when setting up layout in the start*/
+    }
+    .body_image{
+        padding: 1%;
+        grid-area: 2 / 3 / 3 / 4;
+        /*background-color: red; used to organise when setting up layout in the start*/
+    }
+
+    .PART6_VID{
+        grid-area: 2 / 2 / 5 / 3;;
+    }
+    .PART6_MP3{
+        grid-area: 3 / 4 / 4 / 5;;
+    }
+    .PART7_MAP{
+        grid-area: 2/2/3/3;
+        margin:1%;
+    }
+    .PRE_HW{
+        font-size: x-large;
+        grid-area: 2/3/3/4;
+        background-color: white;
+        padding: 5%;
+        border-radius: 1%;
+    }
 }
