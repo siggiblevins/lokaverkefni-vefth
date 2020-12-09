@@ -61,18 +61,55 @@ img{
     height:auto;
 }
 
+.white_color{
+    background-color: white;
+    padding: 2% 1% 2% 1%;
+}
+
+.black_text{
+    color: rgb(49, 49, 49);
+}
+
 @media(max-width:37.5em){
     .header_grid{
         display:grid;
+        grid-template-columns: 0.2fr 1fr 0.2fr;
+        grid-template-rows: 0.1fr .2fr 1fr 0.1fr;
+    }
+    .logo{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .navigation{
+        grid-area: 3 / 2 / 4 / 3;
     }
     .body_grid{
         display:grid;
+        grid-template-columns: 0.2fr 1fr 0.2fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
     }
     .body_grid_video{
         display:grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-rows: 0.1fr .5fr .5fr 0.1fr;
     }
     .footer_grid{
         display:grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+        grid-template-rows: 0.05fr .5fr .5fr 0.05fr;
+    }
+    .PART6_VID{
+        grid-area: 2/2/3/3;
+    }
+    .PART6_MP3{
+        grid-area: 3/2/4/3;
+        background-color: rgb(49, 49, 49);
+    }
+    .PART7_MAP{
+        grid-area: 2/2/3/3;
+    }
+    .PRE_HW{
+        grid-area: 3/2/4/3;
+        background-color: rgb(49, 49, 49);
     }
 }
 
