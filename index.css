@@ -29,6 +29,7 @@ a:active {
     color:rgb(49, 49, 49);
 }
 
+/* used to organise when i was making it
 .PART1{
     background-color: red;
 }
@@ -50,6 +51,7 @@ a:active {
 .PART7{
     background-color: brown;
 }
+*/
 
 .holder_div{
     height: 100vh;
@@ -119,13 +121,13 @@ img{
     .body_text{
         padding:2%;
         grid-area: 3/2/4/3;
-        background-color: pink;
+        /*background-color: pink; used to organise when setting up layout in the start*/
     }
     .body_image{
         padding: 1%;
         display:flexbox;
         grid-area: 2/2/3/3;
-        background-color: red;
+        /*background-color: red; used to organise when setting up layout in the start*/
     }
 
     .PART6_VID{
